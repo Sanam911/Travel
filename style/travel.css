@@ -1,0 +1,58 @@
+/*common styles*/
+
+
+
+/* header section style*/
+header{
+    background-image: url('../asset/bg\ img\ copy.jpg');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navigation bar styles */
+.navi{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-image: linear-gradient(to right,#4B2A00, rgba(255, 255, 255, 0.453)
+   );
+   width: 100%;
+   height: 70px;
+}
+
+.navi li{
+    display: inline;
+    margin-right: 30px;
+    
+}
+.nav-title{
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+}
+ a{
+    text-decoration: none;
+    color:white ;
+    font-size: x-large;
+    font-weight: 900;
+}
+.btn-primary{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 15px;
+    font-size: medium;
+    font-weight: 700;
+
+}
+ /* header title styles */
+
+ .page-title{
+    font-size: 65px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+ }
